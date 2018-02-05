@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivityOld">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,7 +39,7 @@
             android:name="com.google.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation" />
         <activity android:name=".ResultClasses.ResultActivity" />
-        <activity android:name=".MainActivityOld"></activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

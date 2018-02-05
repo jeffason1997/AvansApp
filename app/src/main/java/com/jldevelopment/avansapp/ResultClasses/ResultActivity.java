@@ -26,6 +26,7 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_results);
 
         String info = getIntent().getStringExtra("INFO");
+        System.out.println(info);
 
         JSONArray array = null;
         results = new ArrayList<>();
@@ -58,7 +59,7 @@ public class ResultActivity extends AppCompatActivity {
                 if(same==false) {
                     totaal += results.get(i).EC;
                     names.add(results.get(i).name);
-                    System.out.println(results.get(i).name);
+                    //System.out.println(results.get(i).name);
                 } else{
                     same = false;
                 }
